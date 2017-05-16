@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Button Blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBlue"
+        android:clickable="true"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="100px" />
+    <Button
+        android:text="Button Green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonGreen"
+        android:clickable="true"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="100px" />
+    <Button
+        android:text="Button Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonYellow"
+        android:clickable="true"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="100px" />
+    <Button
+        android:text="Button Red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRed"
+        android:clickable="true"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="100px" />
+    <TextView
+        android:text="Score:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreText"
+        android:layout_marginTop="100px" />
+</LinearLayout>
