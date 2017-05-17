@@ -29,8 +29,6 @@ namespace SimonSays
          * 4 = RED
         */
         
-
-
         public void GameStart()
         {
             GameStatus = true;
